@@ -1,5 +1,22 @@
-# mac
-.DS_Store
+#### macos ####
+*.DS_Store
+.AppleDouble
+.LSOverride
 
-# vim
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+#### python ####
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+#### vim ####
 .swp
