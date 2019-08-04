@@ -18,5 +18,11 @@ __pycache__/
 # C extensions
 *.so
 
+#### jetbrains ####
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
 #### vim ####
 .swp
