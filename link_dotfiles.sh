@@ -1,10 +1,6 @@
 #! /bin/sh
 
-for dot_file in $(ls -A); do
-    # ignore running script 
-    if [ $dot_file = $(basename $0) ]; then
-        continue
-    fi
+for dot_file in .??*; do
     # ignore .git
     if [ $dot_file = ".git" ]; then
         continue
