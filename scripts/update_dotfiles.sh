@@ -1,6 +1,6 @@
 #! /bin/sh
 
-for dot_file in .??*; do
+for dot_file in ../.??*; do
     # ignore .git
     if [ $dot_file = ".git" ]; then
         continue
