@@ -1,8 +1,8 @@
 [user]
-	name = gatakaba
-	email = m07112@gmail.com
+  name = gatakaba
+  email = m07112@gmail.com
 [core]
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 [color]
   status = auto
   diff = auto
