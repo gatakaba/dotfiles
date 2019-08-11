@@ -10,8 +10,8 @@
   interactive = auto
   grep = auto
 [alias]
-	st = status
-	co = checkout
-	br = branch
-	cm = commit
-	df = diff
+  st = status
+  co = checkout
+  br = branch
+  cm = commit
+  df = diff
