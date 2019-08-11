@@ -1,1 +1,7 @@
-/Users/kaba/dotfiles/vscode.json
+{
+    "editor.renderWhitespace": "all",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+}
