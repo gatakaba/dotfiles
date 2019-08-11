@@ -4,4 +4,5 @@
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
+    "editor.fontSize": 14,
 }
