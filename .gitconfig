@@ -9,3 +9,9 @@
   branch = auto
   interactive = auto
   grep = auto
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
+	df = diff
