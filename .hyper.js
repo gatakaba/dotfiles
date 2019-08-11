@@ -151,7 +151,6 @@ module.exports = {
     'hypercwd',
     'hyper-tab-icons',
     'hyper-pane',
-    'verminal',
     "hyper-search",
     "hyper-snazzy"
   ],
