@@ -6,6 +6,11 @@ alias tree="tree -C" # colorization
 alias z='cd $OLDPWD' # back
 alias up="cd ..; ls -l" # goto above dir and show
 
+## ls after cd 
+function cd 
+    builtin cd $argv; and ls
+end
+
 # python
 set -x PYENV_ROOT "$HOME/.pyenv"
 set -x PATH "$PYENV_ROOT/bin" $PATH
