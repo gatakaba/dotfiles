@@ -1,3 +1,3 @@
-source "$HOME/dotfiles/fish/local.fish"
-source "$HOME/dotfiles/fish/common.fish"
-source "$HOME/dotfiles/fish/envs.fish"
+source "$HOME/dotfiles/.config/fish/local.fish"
+source "$HOME/dotfiles/.config/fish/common.fish"
+source "$HOME/dotfiles/.config/fish/env.fish"
