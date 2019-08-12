@@ -5,4 +5,6 @@
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
     "editor.fontSize": 14,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "python.pythonPath": "/Users/kaba/.pyenv/shims/python",
 }
