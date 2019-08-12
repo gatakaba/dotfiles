@@ -148,7 +148,6 @@ module.exports = {
   //   `project#1.0.1`
   plugins: [
     'hyperlinks',
-    'hypercwd',
     'hyper-tab-icons',
     'hyper-pane',
     "hyper-search",
