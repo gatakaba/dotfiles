@@ -1,5 +1,0 @@
-#! /bin/sh
-
-for extention in `cat ../vscode/vscode-extention-list`;do
-    code --install-extension $extention
-done
