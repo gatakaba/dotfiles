@@ -30,10 +30,13 @@ function setup_python() {
 }
 
 function setup_fish() {
-  
-	echo "hoge"
+    ln -sf -v "$PWD/configs/fish/common.fish" "$HOME/.config/fish/conmmon.fish"
+    ln -sf -v "$PWD/configs/fish/config.fish" "$HOME/.config/fish/config.fish"
+    ln -sf -v "$PWD/configs/fish/env.fish" "$HOME/.config/fish/env.fish"
+    ln -sf -v "$PWD/configs/fish/local.fish" "$HOME/.config/fish/local.fish"
 }
 
 setup_git
 setup_hyper
-setup_vscode
+#setup_vscode
+setup_fish
