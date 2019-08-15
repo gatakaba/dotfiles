@@ -7,4 +7,6 @@
     "editor.fontSize": 14,
     "python.dataScience.sendSelectionToInteractiveWindow": false,
     "python.pythonPath": "/Users/kaba/.pyenv/shims/python",
+    "markdown-preview-enhanced.mermaidTheme": "default",
+    "workbench.startupEditor": "newUntitledFile",
 }
