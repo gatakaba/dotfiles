@@ -14,4 +14,23 @@ function setup_vscode() {
     done
 }
 
-setup_vscode
+function setup_git() {
+	echo "hoge"
+}
+
+function setup_hyper() {
+    ln -sf -v "$PWD/configs/hyper/.hyper.js" "$HOME/.hyper.js"
+}
+
+function setup_python() {
+
+	echo "hoge"
+}
+
+function setup_fish() {
+
+	echo "hoge"
+}
+
+# setup_vscode
+setup_hyper
