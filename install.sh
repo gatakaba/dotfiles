@@ -15,7 +15,8 @@ function setup_vscode() {
 }
 
 function setup_git() {
-	echo "hoge"
+    ln -sf -v "$PWD/configs/git/.gitconfig" "$HOME/.gitconfig"
+    ln -sf -v "$PWD/configs/git/ignore" "$HOME/.config/git/ignore"
 }
 
 function setup_hyper() {
@@ -23,14 +24,16 @@ function setup_hyper() {
 }
 
 function setup_python() {
-
-	echo "hoge"
+    # matplotlib
+    mkdir -p .matplotlib/
+    ln -sf -v "$PWD/configs/python/.matplotlibrc" "$HOME/.matplotlib/matplotlibrc"
 }
 
 function setup_fish() {
-
+  
 	echo "hoge"
 }
 
-# setup_vscode
+setup_git
 setup_hyper
+setup_vscode
