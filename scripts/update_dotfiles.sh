@@ -10,9 +10,3 @@ for dot_file in .??*; do
     ln -sf -v  ~/dotfiles/$dot_file ~/$dot_file
 done
 
-# link vs code config file(mac only)
-if [ `uname` = "Darwin" ];then
-    ln -sf -v ~/dotfiles/vscode.json $HOME"/Library/Application Support/Code/User/settings.json"
-else
-    echo "Set VS Code config file manually"
-fi
