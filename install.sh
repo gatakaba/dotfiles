@@ -30,7 +30,7 @@ function setup_python() {
 }
 
 function setup_fish() {
-    ln -sf -v "$PWD/configs/fish/common.fish" "$HOME/.config/fish/conmmon.fish"
+    ln -sf -v "$PWD/configs/fish/common.fish" "$HOME/.config/fish/common.fish"
     ln -sf -v "$PWD/configs/fish/config.fish" "$HOME/.config/fish/config.fish"
     ln -sf -v "$PWD/configs/fish/env.fish" "$HOME/.config/fish/env.fish"
     ln -sf -v "$PWD/configs/fish/local.fish" "$HOME/.config/fish/local.fish"
