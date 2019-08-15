@@ -2,7 +2,7 @@
   name = gatakaba
   email = m07112@gmail.com
 [core]
-  excludesfile = ~/.gitignore
+  excludesfile = ~/.config/ignore
 [color]
   status = auto
   diff = auto
