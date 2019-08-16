@@ -6,11 +6,15 @@ alias tree="tree -C" # colorization
 alias z='cd $OLDPWD' # back
 alias up="cd ..; ls -l" # goto above dir and show
 
-## ls after cd 
+# ls after cd 
 function cd 
     builtin cd $argv; and ls
 end
 
+# vim to nvim
+alias vim ="nvim"
+
+### Environment ###
 # python
 set -x PYENV_ROOT "$HOME/.pyenv"
 set -x PATH "$PYENV_ROOT/bin" $PATH
