@@ -36,7 +36,13 @@ function setup_fish() {
     ln -sf -v "$PWD/configs/fish/local.fish" "$HOME/.config/fish/local.fish"
 }
 
+function setup_vim(){
+    mkdir -p "$XDG_CONFIG_HOME/nvim"
+    ln -sf -v "$PWD/configs/nvim/init.vim" "$XDG_CONFIG_HOME/nvim/init.vim"
+}
+
 setup_git
 setup_hyper
 #setup_vscode
 setup_fish
+setup_vim
