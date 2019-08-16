@@ -5,5 +5,5 @@ repo = 'Shougo/dein.vim'
 repo = 'scrooloose/nerdtree'
 
 [[plugins]]
-repo = 'cohama/lexima.vim' " auto close parentheses
+repo = 'cohama/lexima.vim' 
 
