@@ -12,7 +12,7 @@ function cd
 end
 
 # vim to nvim
-alias vim ="nvim"
+alias vim='nvim'
 
 ### Environment ###
 # python
