@@ -39,6 +39,8 @@ function setup_fish() {
 function setup_vim(){
     mkdir -p "$XDG_CONFIG_HOME/nvim"
     ln -sf -v "$PWD/configs/nvim/init.vim" "$XDG_CONFIG_HOME/nvim/init.vim"
+    ln -sf -v "$PWD/configs/nvim/dein.toml" "$XDG_CONFIG_HOME/nvim/dein.toml"
+    ln -sf -v "$PWD/configs/nvim/dein_lazy.toml" "$XDG_CONFIG_HOME/nvim/dein_lazy.toml"
 }
 
 setup_git

@@ -10,6 +10,14 @@ if dein#load_state('~/.cache/dein')
 
   call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
   call dein#add('Shougo/deoplete.nvim')
+
+  let s:toml_dir = expand('~/.config/nvim')
+  " 起動時にロードする
+  call dein#load_toml(s:toml_dir . '/dein.toml', {'lazy': 0})
+
+  " 遅延読み込み時にロードする
+  call dein#load_toml(s:toml_dir . '/dein_lazy.toml', {'lazy': 1})
+  
   if !has('nvim')
     call dein#add('roxma/nvim-yarp')
     call dein#add('roxma/vim-hug-neovim-rpc')
