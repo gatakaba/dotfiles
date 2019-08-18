@@ -1,0 +1,2 @@
+#!/bin/sh
+wakeonlan 70:85:c2:a4:9d:ab

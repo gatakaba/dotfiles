@@ -45,6 +45,6 @@ function setup_vim(){
 
 setup_git
 setup_hyper
-#setup_vscode
+setup_vscode
 setup_fish
 setup_vim
