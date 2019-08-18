@@ -9,4 +9,15 @@
     "python.pythonPath": "/Users/kaba/.pyenv/shims/python",
     "markdown-preview-enhanced.mermaidTheme": "default",
     "workbench.startupEditor": "newUntitledFile",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ]
 }
