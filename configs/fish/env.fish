@@ -19,6 +19,7 @@ alias vim='nvim'
 set -x PYENV_ROOT "$HOME/.pyenv"
 set -x PATH "$PYENV_ROOT/bin" $PATH
 eval (pyenv init - | source)
+set -x PATH "$HOME/.local/bin" $PATH
 
 # path
 set -x PATH $HOME/bin $PATH
